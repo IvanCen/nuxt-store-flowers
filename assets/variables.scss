@@ -1,0 +1,27 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+
+$black: #000;
+$white: #fff;
+$lightGrey: #d1d1d1;
+$darkGrey: #484848;
+$blood: #e02b20;
+$pione: #e01f76;
+$shadow: rgba(71, 71, 71, 0.71);
+$border-radius: 8px;
+$duration: 0.3s;
+$image-bg: #f5f4f2;
+$invalid-color: #e60000;
+$dark: black;
+$gray: #59606d;
+$light: white;
+$gray-light: #959dad;
+$grey-extra-light: #f8f8f8;
+$sun: #f2c94c;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$opacity: 0.7;
